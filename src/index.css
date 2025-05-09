@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "DM Serif Display", serif;
+}
+
+@layer base {
+  * {
+    user-select: none;
+    font-family: "Inter Tight", sans-serif;
+  }
+  body {
+    @apply bg-[#0c0c0c] text-white;
+  }
+}
