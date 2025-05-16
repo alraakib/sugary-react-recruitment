@@ -45,9 +45,7 @@ export const MaterialCard = ({
         <div className="relative aspect-[4/5] overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-t from-black/95 to-transparent z-10" />
           <img
-            src={`https://nexus-amber.vercel.app/_next/image?url=${
-              import.meta.env.VITE_CDN_URL
-            }/${material.CoverPhoto}&w=750&q=10`}
+            src={`${import.meta.env.VITE_CDN_URL}/${material.CoverPhoto}`}
             alt={material.Title}
             className="object-cover w-full h-full transition-transform duration-500 ease-in-out group-hover:scale-125"
           />
